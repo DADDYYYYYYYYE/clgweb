@@ -1,0 +1,224 @@
+.hungryhub{
+    height: 40px;
+    width: 40px;
+    display: inline;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+}
+.hungryhub:hover{
+    background-color: antiquewhite;
+    box-sizing: border-box;
+   
+}
+
+.header{
+ margin-top: -10px;
+  background-color: black;
+   background-size: 650px;
+   
+  
+
+
+} 
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border-radius: .5rem;
+    padding: .8rem 3rem;
+
+
+
+}
+.btn:hover
+{
+    background-color: green;
+}
+    
+.header a:hover{
+    background-color: wheat;
+   
+}
+.header img:hover{
+    background-color: wheat;
+}
+
+.logo{
+    display:inline;
+}
+.tags{
+    padding-left: 400px;
+    padding-right: 250px;
+   
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight:bolder;
+    
+}
+
+.hi{
+    display: inline;
+}
+.hungryhubs{
+    height: 40px;
+    width: 40px;
+    display: inline;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.hungryhubs:hover{
+    background-color: aliceblue;
+    transform: rotate(360deg);
+}
+.hungryhub:hover{
+    background-color: aliceblue;
+}
+section{
+    padding: 2rem 9%;
+}
+.home .home-slider .slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 9rem;
+
+}
+.home .home-slider .slide .content span{
+    font-size: 2.5rem;
+    color: black;
+}
+.home .home-slider .slide .content h3{
+    font-size: 2rem;
+}
+.home .home-slider .slide .content p
+{
+    font-size: 1.1rem;
+}
+.home-slider{
+
+      
+        height: 700px;
+        width: 400px;
+        position: absolute;
+        margin-bottom: 50rem;
+        transform: translate(-50%,-50%);
+        top: 47%;
+        left: 50%;
+        overflow: hidden;
+        
+        
+}
+.home-slider:hover{
+   
+    
+}
+body{
+    
+    background-size: 100%;
+  
+    background-position: 70%;
+}
+
+.wrapper{
+    width: 100%;
+   display: flex;
+   animation: slide 16s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+.images{
+    width: 100%;
+}
+
+.spec{
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.dishes .box-container{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(28rem,1fr));
+    gap:1.5rem;
+}
+.dishes .box-container .box{
+    padding: 2.5rem;
+    border-radius: .5rem;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.dishes .box-container .box .fa-heart,
+.dishes .box-container .box .fa-eye{
+    position: absolute;
+    top: 1.5rem;
+    height: 5rem;
+    width: 5rem;
+    font-size: 2rem;
+    color: black;
+
+
+}
+.abt{
+    text-align: center;
+
+}
+.sd{
+    font: bold;
+    border-radius: 50%;
+    font-family: 'Courier New', Courier, monospace;
+   border-color: black;
+   background-color: yellow;
+   box-shadow: 0ch;
+   box-shadow: 0cqmin;
+}
+
+.home{
+    display: none;
+}
+
+.dishes{
+    display: none;
+}
+.aboutus{
+    display: none;
+}
+.order{
+    display: none;
+}
+.sd:hover{
+   cursor: pointer;
+   border-color: antiquewhite;
+
+}
